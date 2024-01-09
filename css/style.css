@@ -73,6 +73,10 @@
   cursor: pointer;
   outline: none;
 }
+.timeline-item .icon svg,
+.timeline-item .icon svg path {
+  fill: white !important;
+}
 .timeline-item .icon:hover {
   background-color: #1e30ca;
 }
@@ -133,7 +137,7 @@
   top: 62%;
   left: 12%;
 }
-.timeline-item.remote:nth-child(4) {
+.timeline-item.remote:nth-child(6) {
   top: 62%;
   left: 61%;
 }
@@ -141,7 +145,7 @@
   top: 49%;
   left: 61%;
 }
-.timeline-item.remote:nth-child(6) {
+.timeline-item.remote:nth-child(4) {
   top: 36.3%;
   left: 61%;
 }
